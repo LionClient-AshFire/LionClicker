@@ -3,5 +3,5 @@ windows only
 
 NEEDED:
 open cmd and type:
-pip install pynput
+pip install pynput |
 pip install pygame
