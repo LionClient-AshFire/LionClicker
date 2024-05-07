@@ -12,7 +12,7 @@ import sys
 import hashlib
 import json
 
-# Made by LionClient. Hi thanks for using my clicker :))) make sure to not rat your fork!
+# Made by LionClient and Niko. Do not make your own version thats ratted/payed.
 
 
 clicking = False
