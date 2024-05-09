@@ -100,19 +100,19 @@ def main():
     label_text = tk.StringVar()
     label_text.set("Jitter: OFF | Click Sounds: OFF | CPS Randomization: OFF | Toggle Key: z | CPS: 14")
 
-    jitter_label = tk.Label(window, textvariable=label_text, fg="red", bg="black")  # Set red text
+    jitter_label = tk.Label(window, textvariable=label_text, fg="red", bg="black")
     jitter_label.pack(pady=100)
 
-    toggle_jitter_button = tk.Button(window, text="Jitter", command=toggle_jitter, fg="black", bg="red")  # Set red button text
+    toggle_jitter_button = tk.Button(window, text="Jitter", command=toggle_jitter, fg="black", bg="red")
     toggle_jitter_button.pack(pady=5)
 
-    toggle_sound_button = tk.Button(window, text="Click Sounds", command=toggle_sound, fg="black", bg="red")  # Set red button text
+    toggle_sound_button = tk.Button(window, text="Click Sounds", command=toggle_sound, fg="black", bg="red")
     toggle_sound_button.pack(pady=5)
 
-    toggle_cps_randomization_button = tk.Button(window, text="CPS Randomization", command=toggle_cps_randomization, fg="black", bg="red")  # Set red button text
+    toggle_cps_randomization_button = tk.Button(window, text="CPS Randomization", command=toggle_cps_randomization, fg="black", bg="red")
     toggle_cps_randomization_button.pack(pady=5)
 
-    toggle_key_label = tk.Label(window, text="Select Toggle Key:", fg="red", bg="black")  # Set red text
+    toggle_key_label = tk.Label(window, text="Select Toggle Key:", fg="red", bg="black")
     toggle_key_label.pack(pady=5)
 
     toggle_key_entry = tk.Entry(window)
@@ -121,13 +121,13 @@ def main():
     set_toggle_key_button = tk.Button(window, text="Set Toggle Key", command=lambda: set_toggle_key(KeyCode.from_char(toggle_key_entry.get())), fg="black", bg="red")  # Set red button text
     set_toggle_key_button.pack(pady=5)
 
-    cps_label = tk.Label(window, text="Set CPS:", fg="black", bg="red")  # Set red text
+    cps_label = tk.Label(window, text="Set CPS:", fg="black", bg="red")
     cps_label.pack(pady=5)
 
     cps_entry = tk.Entry(window)
     cps_entry.pack(pady=5)
 
-    set_cps_button = tk.Button(window, text="Set CPS", command=lambda: set_cps(float(cps_entry.get())), fg="black", bg="red")  # Set red button text
+    set_cps_button = tk.Button(window, text="Set CPS", command=lambda: set_cps(float(cps_entry.get())), fg="black", bg="red")
     set_cps_button.pack(pady=5)
 
     click_thread = threading.Thread(target=clicker, daemon=True)
