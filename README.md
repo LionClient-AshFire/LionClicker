@@ -2,7 +2,7 @@ if you want to use click sounds the click.wav file needs to be in the same folde
 place the GUI.png in the same folder as the clicker!
 windows only
 
-Credits: LionClient (Made the base) Niko (made the gui etc etc)
+Credits: LionClient, Niko
 
 NEEDED:
 open cmd and type:
