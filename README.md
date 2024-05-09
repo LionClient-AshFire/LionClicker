@@ -6,4 +6,4 @@ Credits: LionClient (Made the base) Niko (made the gui etc etc)
 NEEDED:
 open cmd and type:
 pip install pynput |
-pip install pygame
+pip install pygame | pip install Pillow | pip install wmi
