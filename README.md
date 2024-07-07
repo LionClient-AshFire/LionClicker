@@ -1,3 +1,7 @@
+CLICKER IS DISCONTINUED UNTIL FURTHER NOTICE (MAYBE A RECODE)!
+
+
+
 if you want to use click sounds the click.wav file needs to be in the same folder as the clicker!
 place the GUI.png in the same folder as the clicker!
 windows only (i think)
